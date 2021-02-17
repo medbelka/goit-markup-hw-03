@@ -19,6 +19,14 @@
 .header-container {
   display: flex;
 }
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: 1px solid red;
+}
+
 .logo .logo-brand {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -27,6 +35,7 @@
 
 .logo {
   color: #000000;
+  margin-right: 93px;
 }
 
 .logo-brand {
@@ -42,15 +51,32 @@ ul {
   color: var(--brand-color);
 }
 
-.nav-panel a {
+.nav-panel {
+  display: flex;
+}
+
+.nav-panel > li {
+  outline: 1px solid blue;
+}
+.nav-panel > a {
+  text-decoration: none;
+  display: block;
   color: var(--text-color-primary);
   text-decoration: none;
   font-weight: 500;
+  padding-top: auto;
+  padding-bottom: auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-panel a:hover,
 :focus {
   color: var(--brand-color);
+}
+
+.contacts-container {
+  display: flex;
 }
 
 .nav-contacts a {
