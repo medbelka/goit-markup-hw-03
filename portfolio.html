@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">    <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Портфолио</title>
 </head>
 <body>
     <div class="container">
      <!--header container-->
-        <header>
-            <nav>
-                <h1 class="logo"><span class="logo-brand">Web</span>Studio</h1>
-                <ul  class="nav-panel">
-                    <li><a href="./index.html">Студия</a></li>
-                    <li><a id="current" href="./portfolio.html">Портфолио</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-                <ul>
-                    <li class="nav-contacts"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="nav-contacts"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <header class="nav-container">
+            <nav class="header-container">
+                <a class="logo" href="index.html"><span class="logo-brand">Web</span>Studio</a>
+                <ul class="nav-panel">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
+                    <li class="nav-item"><a class="nav-link" id="current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Контакты</a></li>
                 </ul>
             </nav>
+            <ul class="contacts-container">
+                <li class="nav-contacts"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="nav-contacts"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
         </header>
         <main>
             <h1 class="hidden">
