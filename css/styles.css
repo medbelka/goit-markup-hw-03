@@ -29,13 +29,17 @@ ul {
 }
 
 h1,
+h2,
 h3,
-p,
-.product-title {
+p {
   margin: 0;
 }
 
-h2 {
+.hidden {
+  display: none;
+}
+
+.section-title {
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -325,10 +329,6 @@ h2 {
   margin-bottom: 9px;
 }
 
-.hidden {
-  display: none;
-}
-
 .btn-filter {
   display: flex;
   justify-content: center;
@@ -390,7 +390,7 @@ h2 {
 .product-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   color: var(--text-color-primary);
   text-align: left;
   letter-spacing: 0.06em;
@@ -399,7 +399,7 @@ h2 {
 .product-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   color: var(--text-color-secondary);
   text-align: left;
   letter-spacing: 0.03em;
